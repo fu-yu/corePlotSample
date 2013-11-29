@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CorePlot-CocoaTouch.h"
 
-@interface YFViewController : UIViewController
-
+@interface YFViewController : UIViewController<CPTPlotDataSource>
+@property(weak,nonatomic) IBOutlet CPTGraphHostingView * graphView;
 @end

@@ -567,6 +567,7 @@
 					"$(inherited)",
 					"/Volumes/MAIN/work/ios7/corePlotSample1/CorePlot14/CorePlot14/Vender/CorePlot-iOS",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -584,6 +585,7 @@
 					"$(inherited)",
 					"/Volumes/MAIN/work/ios7/corePlotSample1/CorePlot14/CorePlot14/Vender/CorePlot-iOS",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
